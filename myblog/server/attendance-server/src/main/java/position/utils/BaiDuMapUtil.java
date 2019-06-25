@@ -23,6 +23,7 @@ public class BaiDuMapUtil {
         System.out.println("--------------" + longitude + "-----------------");
         System.out.println("--------------" + latitude + "-----------------");
         String locJson = geturl("http://api.map.baidu.com/geoconv/v1/?coords=" + longitude + "," + latitude + "&from=1&to=5&ak=7GAxnzcDaWjbiLx19K3Hge1OKBuK5alo");
+
         //System.out.println(locJson);
         JSONObject jobject = JSON.parseObject(locJson);
         JSONArray jsonArray = jobject.getJSONArray("result");

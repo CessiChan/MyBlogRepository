@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="toyota" class="utils.testPojo.Toyota"></bean>
+    <!--通过构造方法实例化bean,name为别名-->
+    <bean id="bean1" class="utils.testPojo.Bean1" name="bean1_2,bean1_3"/>
+    <!--通过静态工厂方法获取bean-->
+    <bean id="bean2" class="utils.testPojo.Bean2Factory" factory-method="getBean2"/>
+    <!--通过实例化方法实例化bean-->
+    <bean id="bean3Factory" class="utils.testPojo.Bean3Factory"></bean>
+    <bean id="bean3" class="utils.testPojo.Bean3" factory-bean="bean3Factory" factory-method="getBean3"></bean>
+
+    <!--bean注入-->
+    <bean class="utils.testPojo.beanInjection.AnotherBean" id="anotherBean" />
+    <!--构造函数实现Bean,对属性进行赋值-->
+    <bean id="beanInjection" class="utils.testPojo.beanInjection.Bean">
+        <!--index是构造方法的第几个参数，name为参数名,type为参数类型，value，ref是为了参数赋值的-->
+        <constructor-arg index="0" name="anotherBean"
+                         type="utils.testPojo.beanInjection.AnotherBean"
+                         ref="anotherBean" />
+        <constructor-arg index="1" name="name" type="java.lang.String"
+                         value="nameaaa" />
+        <property name="anotherBean2" ref="anotherBean" />
+        <property name="name2" value="2222222" />
+        <!--集合的注入方法-->
+        <property name="stringList">
+            <list>
+                <value>11111</value>
+                <value>22222</value>
+                <value>33333</value>
+            </list>
+        </property>
+        <property name="anotherBeanList">
+            <list>
+                <ref bean="anotherBean"></ref>
+                <ref bean="anotherBean"></ref>
+            </list>
+        </property>
+        <property name="stringSet">
+            <set>
+                <value>11111</value>
+                <value>22222</value>
+                <value>33333</value>
+            </set>
+        </property>
+        <property name="anotherBeanMap">
+            <map>
+                <entry key-ref="anotherBean" value-ref="anotherBean" />
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="aaaaaaa">bbbbbbbb</prop>
+            </props>
+        </property>
+    </bean>
+    <!--简写-->
+    <!--<bean class="utils.testPojo.beanInjection.Bean" id="beanInjection2"
+          c:anotherBean-ref="anotherBean" c:name="ccccaaaa"
+          p:anotherBean2-ref="anotherBean" p:name2="pppppname2"/>-->
+</beans>

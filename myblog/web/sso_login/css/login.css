@@ -1,0 +1,13 @@
+.login-Img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(../img/login_back.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.login-title-img{
+
+}
