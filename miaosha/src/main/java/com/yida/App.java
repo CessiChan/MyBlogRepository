@@ -1,21 +1,20 @@
 package com.yida;
 
-import com.yida.dao.UserInfoDOMapper;
-import com.yida.dataObject.UserInfoDO;
+import com.yida.user.dao.UserInfoDOMapper;
+import com.yida.user.dataObject.UserInfoDO;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 /**
  * Hello world!
  */
 //此注解为了自动加载,启动内嵌tomcat
 @SpringBootApplication(scanBasePackages = {"com.yida"})
 @RestController
-@MapperScan("com.yida.dao")
+@MapperScan("com.yida.*.dao")
 public class App {
 
     @Autowired
