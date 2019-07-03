@@ -1,0 +1,2 @@
+[2019-06-27 17:23:49] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 198 logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2019-06-27 17:24:09] WARN  org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver 198 logException - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported]

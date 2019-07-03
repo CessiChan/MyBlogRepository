@@ -3,14 +3,15 @@ package com.yida.user.service.model;
 /**
  * @author si_chan
  * @date 2019-06-26
+ * 业务层的对象
  **/
 public class UserModel {
     private String id;
     private String name;
-    private Integer gender;//性别，'1代表男性，2代表女性'
+    private String gender;//性别，'1代表男性，2代表女性'
     private String telphone;
     private String registerMode;//注册方式,1为手机，2为微信，3为支付宝',
-    private String thirdPartId; //第三方的id
+    private String thirdPartyId; //第三方的id
     private String account;//账号
     private String encrptPassWord;//加密密码
 
@@ -30,11 +31,11 @@ public class UserModel {
         this.name = name;
     }
 
-    public Integer getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(Integer gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -54,12 +55,12 @@ public class UserModel {
         this.registerMode = registerMode;
     }
 
-    public String getThirdPartId() {
-        return thirdPartId;
+    public String getThirdPartyId() {
+        return thirdPartyId;
     }
 
-    public void setThirdPartId(String thirdPartId) {
-        this.thirdPartId = thirdPartId;
+    public void setThirdPartyId(String thirdPartyId) {
+        this.thirdPartyId = thirdPartyId;
     }
 
     public String getAccount() {

@@ -1,14 +1,36 @@
-[2019-06-26 17:21:02] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting App on LAPTOP-JAFTMBEB with PID 10620 (G:\code\MyBlogRepository\miaosha\target\classes started by Administrator in G:\code\MyBlogRepository\miaosha)
-[2019-06-26 17:21:02] INFO  org.springframework.boot.SpringApplication 646 logStartupProfileInfo - No active profile set, falling back to default profiles: default
-[2019-06-26 17:21:04] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8090 (http)
-[2019-06-26 17:21:04] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
-[2019-06-26 17:21:04] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.21]
-[2019-06-26 17:21:04] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
-[2019-06-26 17:21:04] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 283 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2298 ms
-[2019-06-26 17:21:05] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
-[2019-06-26 17:21:06] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 202 start - Tomcat started on port(s): 8090 (http) with context path ''
-[2019-06-26 17:21:06] INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started App in 4.351 seconds (JVM running for 6.498)
-[2019-06-26 17:21:28] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2019-06-26 17:21:28] INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
-[2019-06-26 17:21:28] INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 15 ms
-[2019-06-26 17:21:29] INFO  com.alibaba.druid.pool.DruidDataSource 889 init - {dataSource-1} inited
+[2019-07-02 10:03:08] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-07-02 10:03:08] INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2019-07-02 10:03:08] INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 41 ms
+[2019-07-02 10:04:30] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-07-02 10:04:38] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting App on LAPTOP-JAFTMBEB with PID 6480 (G:\code\MyBlogRepository\miaosha\target\classes started by Administrator in G:\code\MyBlogRepository\miaosha)
+[2019-07-02 10:04:38] INFO  org.springframework.boot.SpringApplication 646 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2019-07-02 10:04:40] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8090 (http)
+[2019-07-02 10:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2019-07-02 10:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2019-07-02 10:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2019-07-02 10:04:40] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 283 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2478 ms
+[2019-07-02 10:04:42] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2019-07-02 10:04:42] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 202 start - Tomcat started on port(s): 8090 (http) with context path ''
+[2019-07-02 10:04:42] INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started App in 4.942 seconds (JVM running for 6.965)
+[2019-07-02 10:05:00] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-07-02 10:05:00] INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2019-07-02 10:05:00] INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 14 ms
+[2019-07-02 10:06:07] INFO  com.alibaba.druid.pool.DruidDataSource 889 init - {dataSource-1} inited
+[2019-07-02 10:09:44] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-07-02 10:09:44] INFO  com.alibaba.druid.pool.DruidDataSource 1658 close - {dataSource-1} closed
+[2019-07-02 10:09:50] INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting App on LAPTOP-JAFTMBEB with PID 22940 (G:\code\MyBlogRepository\miaosha\target\classes started by Administrator in G:\code\MyBlogRepository\miaosha)
+[2019-07-02 10:09:50] INFO  org.springframework.boot.SpringApplication 646 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[2019-07-02 10:09:52] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90 initialize - Tomcat initialized with port(s): 8090 (http)
+[2019-07-02 10:09:52] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2019-07-02 10:09:52] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2019-07-02 10:09:52] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2019-07-02 10:09:52] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 283 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2234 ms
+[2019-07-02 10:09:53] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 171 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2019-07-02 10:09:53] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 202 start - Tomcat started on port(s): 8090 (http) with context path ''
+[2019-07-02 10:09:53] INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started App in 4.4 seconds (JVM running for 6.453)
+[2019-07-02 10:10:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-07-02 10:10:09] INFO  org.springframework.web.servlet.FrameworkServlet 524 initServletBean - Initializing Servlet 'dispatcherServlet'
+[2019-07-02 10:10:09] INFO  org.springframework.web.servlet.FrameworkServlet 546 initServletBean - Completed initialization in 14 ms
+[2019-07-02 10:10:13] INFO  com.alibaba.druid.pool.DruidDataSource 889 init - {dataSource-1} inited
+[2019-07-02 10:17:28] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 208 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-07-02 10:17:28] INFO  com.alibaba.druid.pool.DruidDataSource 1658 close - {dataSource-1} closed
