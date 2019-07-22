@@ -8,7 +8,8 @@ package com.yida.user.service.model;
 public class UserModel {
     private String id;
     private String name;
-    private String gender;//性别，'1代表男性，2代表女性'
+    //性别，1代表男性，2代表女性
+    private String gender;
     private String telphone;
     private String registerMode;//注册方式,1为手机，2为微信，3为支付宝',
     private String thirdPartyId; //第三方的id
